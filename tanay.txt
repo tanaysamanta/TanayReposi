@@ -1,4 +1,38 @@
-this is normal testing poem
+This is loading page animation (view code)
 
-hi i am tanay
-this is normal poem
+
+
+body{
+	   background:cadetblue;
+	    margin:10px 15px;
+	   }
+ 
+ div{
+			     width:0;
+				 height:0;
+				 bakgound:orange;
+				 border-left:125px solid transparent;
+				
+				 border-right:125px solid transparent;
+				 border-bottom:100px solid red;
+				 position:absolute;
+				 top:50%;
+				 left:50%;
+				 transform:translate(-50%,-50%);
+				 
+			 }
+			 div:fast-of-type{
+			 border-bottom-color:aqua;
+			 transform:translate(-50%,-100%);
+			 z-index:1;
+			 }
+			 div:last-of-type{
+			 border-bottom-color:pink;
+			 transform:translate(-50%,-10%);
+			 z-index:-1;
+			 }
+			 .second{
+			 border-bottom-color:yellow;
+			      transform:translate(-50%,30%);
+				  z-index:-2;
+			 }
